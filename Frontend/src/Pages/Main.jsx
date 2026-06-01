@@ -470,7 +470,7 @@ const Main = () => {
     <div>
 
       {/* HERO SECTION */}
-      <div className='w-full min-h-screen bg-neutral-950 text-white overflow-hidden relative selection:bg-yellow-400 selection:text-black'>
+      <div className='w-full min-h-screen bg-neutral-950 text-white overflow-hidden relative selection:bg-yellow-400 selection:text-black '>
         {/* Background Pattern / Texture */}
         <img
           src={background}
