@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import api from "../services/api.js";
 import Navber from "../components/Navber";
 import player from "../assets/player.png";
-// import background from "../assets/Background.png"
+import background from "../assets/Background.png"
 
 import bg from "../assets/bg1.jpg";
 import { FaFacebookF, FaInstagram, FaWhatsapp, FaEnvelope, FaMapMarkerAlt, FaPhoneAlt } from "react-icons/fa";
@@ -43,11 +43,11 @@ const Main = () => {
       {/* HERO SECTION */}
       <div className='w-full min-h-screen bg-neutral-950 text-white overflow-hidden relative selection:bg-yellow-400 selection:text-black'>
         {/* Background Pattern / Texture */}
-        {/* <img
+        <img
           src={background}
           className="absolute inset-0 w-full h-full object-cover opacity-10 mix-blend-luminosity pointer-events-none"
           alt=""
-        /> */}
+        />
 
         {/* Ambient Color Glows for Depth */}
         <div className="absolute top-1/4 left-0 w-[300px] h-[300px] bg-yellow-500/10 rounded-full blur-[120px] pointer-events-none" />
