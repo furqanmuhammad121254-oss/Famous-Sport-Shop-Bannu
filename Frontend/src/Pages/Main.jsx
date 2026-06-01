@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import api from "../services/api.js";
 import Navber from "../components/Navber";
 import player from "../assets/player.png";
-import background from "../assets/background.png"
+import background from "../assets/Background.png"
 
 import bg from "../assets/bg1.jpg";
 import { FaFacebookF, FaInstagram, FaWhatsapp, FaEnvelope, FaMapMarkerAlt, FaPhoneAlt } from "react-icons/fa";
